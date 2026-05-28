@@ -1,0 +1,6 @@
+# Enforce strict line feed formatting across multiple operating system environments
+*.py text eol=lf
+*.vhd text eol=lf
+*.sol text eol=lf
+*.md text eol=lf
+
