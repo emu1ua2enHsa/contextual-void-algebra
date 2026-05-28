@@ -1,0 +1,38 @@
+$date
+  May 28, 2026
+$end
+$version
+  IPC VHDL Emulator v1.0
+$end
+$timescale 1ns $end
+$scope module ipc_alu_tb $end
+$var wire 8 ! operand_a [7:0] $end
+$var wire 8 " operand_b [7:0] $end
+$var wire 2 # opcode [1:0] $end
+$var wire 8 $ result [7:0] $end
+$var wire 1 % vacuum_flag $end
+$var wire 8 & tier_out [7:0] $end
+$upscope $end
+$enddefinitions $end
+#0
+#10
+b00000101 !
+b00000011 "
+b00 #
+b00001000 $
+0 %
+b00000000 &
+#20
+b00001010 !
+b00000100 "
+b01 #
+b00000110 $
+0 %
+b00000000 &
+#30
+b11111111 !
+b11111111 "
+b01 #
+b00000000 $
+1 %
+b11111111 &
