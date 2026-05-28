@@ -1,0 +1,56 @@
+\documentclass[11pt,journal,onecolumn]{IEEEtran}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfomts}
+\usepackage{amsthm}
+
+\newtheorem{axiom}{Axiom}
+\newtheorem{theorem}{Theorem}
+\newtheorem{definition}{Definition}
+
+\begin{document}
+
+\title{First-Order Predicate Logic Transformation within Information-Preserving Deductive Systems}
+\author{Emul UazEnHsa}
+\date{\vfill}
+
+\maketitle
+
+\begin{abstract}
+Classical first-order predicate calculus utilizes a destructive negation operator where the conjunction of a proposition and its structural negation ($A \land \neg A$) collapses the truth valuation to absolute falsehood ($\bot$), triggering an unconstrained logical explosion via the principle of \textit{Ex Falso Quodlibet}. This paper introduces an Information-Preserving Deductive System (IPDS). By treating logical negation not as an identity annihilation, but as a topological spatial evacuation into an indexed vacancy configuration ($\varnothing_A$), we define a robust paraconsistent truth framework that preserves structural context at the metalogicallayer and arbitrary inference explosions.
+\end{abstract}
+
+\begin{IEEEkeywords}
+Mathematical logic, Paraconsistent Logic, Model Theory, Information-Preserving Calculus.
+\end{IEEEkeywords}
+
+\section{Introduction and Structural Backround}
+In standard deductive architectures, classical systems collapse under self-contradiction because the logical structure completely erases data when truth states cancel out. By treating the intersection of opposing values as a distinct architectural placeholder, an information-preserving system maintains systemic continuity where standard calculus frameworks fail.
+
+\section{Formal Axiomatic Logic Transformations}
+Let $\mathcal{L}$ represent a first-order formal language language containing standard connectives. We introduce the dual-rail Truth Tuple operator $\mathcal{T}(A) = \langle \alpha, \beta \rangle$, where $\alpha \in \{0,1\} $ models the active truth valuation, and $\beta \in \{0,1\} $ tracks the latent structural capacity memory.
+
+\begin{axiom}[The Preserved Contradiction Rule]
+The logical conjunction of an active proposition and its structural negation does not map to the flat null space $\bot$. Instead, it triggers an evaluation transform:
+\begin{equation}
+\mathcal{T}(A \land \neg A) \equiv \varnothing_A
+\end{equation}
+Where $\varnothing_A$ is defined explicitly as the Contextual Vacancy Identity Element.
+\end{axiom}
+
+\section{Eliminationg the Principle of Explosion}
+In standard deduction, the sequence is structurally destructive:
+\begin{enumerate}
+    \item $A$ (Premise)
+    \item $\neg A$ (Premise)
+    \item $A \lor B$ (Disjunction Introduction on 1)
+    \item $B$ (Disjunctive Syllogism via 2 and 3)
+\end{enumerate}
+
+Under IPDS predicate rules, Step 2 is blocked from universal substitution because line 1 and line 2 collapse into an isolated vacancy state $\varnothing_A$ that lacks the active truth property required to evaluate the disjunctive syllogism step on line 4:
+\begin{equation}
+(\varnothing_A \land (A \lor B)) \nvdash B
+\end{equation}
+This holds because $\varnothing_A$ preserves the specific syntactic boundaries of proposition $A$, preventing it from interactiong with or validating an arbitrary, unrelated proposition $B$.
+
+\end{document}

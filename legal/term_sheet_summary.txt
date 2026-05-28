@@ -1,0 +1,21 @@
+=======================================================================================
+COMMERCIAL TERM SHEET SUMMARY: INFORMATION-PRESERVING CALCULUS PROJECTS
+=======================================================================================
+SUMMARY OF TERMS: SERIES SEED CONVERTIBLE NOTE FINANCING
+
+AGGREGATE PRINCIPAL AMOUNT: $6,000,000 USD
+VALUATION CAP:              $25,000,000 USD
+CONVERSION DISCOUNT:        20.0%
+ANNUAL INTEREST RATE:       4.5% Simple Interest
+MATURITY WINDOW:            24 Months from Closing Date
+
+CONVERSION MECHANICS:
+Upon the closing of a Qualified Financing (Series A Equity Round raising at least 
+$5,000,000), the outstanding principal and accrued interest will automatically 
+convert into Preferred Shares at the lesser of the Valuation Cap pricing or the 
+Discounted Share price.
+
+GOVERNING LAW:
+This agreement shall be construed, interpreted, and governed under the regulations 
+and corporate statutes of the State of Wyoming.
+
